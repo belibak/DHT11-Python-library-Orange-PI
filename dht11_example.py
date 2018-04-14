@@ -5,9 +5,8 @@ import time
 import datetime
 
 
-GPIO.setmode(GPIO.BOARD)
+gpio.setmode(gpio.BOARD)
 PIN2 = 5
-gpio.init()
 
 instance = dht11.DHT11(pin=PIN2)
 
