@@ -30,7 +30,7 @@ class DHT11:
         self.__pin = pin
 
     def read(self):
-        gpio.setup(self.__pin, gpio.OUTPUT)
+        gpio.setup(self.__pin, gpio.OUT)
 
         # send initial high
         self.__send_and_sleep(gpio.HIGH, 0.05)
