@@ -1,8 +1,5 @@
 import time
-from pyA20.gpio import gpio
-from pyA20.gpio import port
-#import RPi
-
+import OPi.GPIO as gpio
 
 class DHT11Result:
     'DHT11 sensor result returned by DHT11.read() method'
